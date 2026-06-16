@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="cdn/style.css" rel="stylesheet">
+</head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+        </ul>
+    </li>
+    </nav>
+    </header>
+    
+    <div class="text-bg-info p-3 bg-marron">
+        <h1>Meu Projeto Portifolio</h1>
+    </div> <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe para Bootstrap</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <style>
+        /* Estilizações personalizadas para aproximar das cores do wireframe */
+        .bg-beige { background-color: #cbb493; }
+        .bg-light-gray { background-color: #e5e5e5; }
+        .bg-dark-btn { background-color: #2b2521; color: #cbb493; }
+        .bg-dark-btn:hover { color: #fff; background-color: #1a1614; }
+        .input-beige { background-color: #cbb493; border: none; }
+        .input-beige:focus { background-color: #beaa8a; box-shadow: none; }
+        .circle-profile { width: 180px; height: 180px; background-color: #1a1a1a; border: 4px solid #0091ff; }
+        .circle-social { width: 50px; height: 50px; background-color: #1a1a1a; color: #cbb493; font-weight: bold; }
+        .placeholder-box { background-color: #1a1a1a; min-height: 180px; display: flex; align-items: center; justify-content: center; color: #cbb493; }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Header / Menu -->
+    <header class="bg-beige py-3 shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo Placeholder -->
+            <div class="bg-dark text-center text-white d-flex align-items-center justify-content-center" style="width: 120px; height: 60px;">
+                <div><small class="d-block text-muted" style="font-size: 10px;">LOGO</small></div>
+            </div>
+            <!-- Navegação -->
+            <nav class="nav">
+                <a class="nav-link text-dark px-2" href="#">Menu 1</a>
+                <span class="navbar-text text-dark">-</span>
+                <a class="nav-link text-dark px-2" href="#">Menu 2</a>
+                <span class="navbar-text text-dark">-</span>
+                <a class="nav-link text-dark px-2" href="#">Menu 3</a>
+                <span class="navbar-text text-dark">-</span>
+                <a class="nav-link text-dark px-2" href="#">Menu 4</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. Seção de Texto e Imagem Lateral -->
+    <main class="container my-5">
+        <div class="row align-items-center g-4">
+            <div class="col-md-7">
+                <p class="text-secondary lh-base">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. 
+                    Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                    Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."
+                </p>
+            </div>
+            <div class="col-md-5">
+                <div class="placeholder-box rounded shadow-sm">
+                    <span class="fs-4">X</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Linha divisória implícita por espaçamento -->
+        <div class="my-5"></div>
+
+        <!-- 3. Seção Inferior: Formulário e Perfil -->
+        <div class="row g-5">
+            <!-- Formulário -->
+            <div class="col-md-4">
+                <h5 class="mb-3 text-secondary">Entre em contato comigo</h5>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label mb-1">Nome</label>
+                        <input type="text" class="form-control input-beige py-2">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label mb-1">71 99247-2849</label>
+                        <input type="text" class="form-control input-beige py-2">
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label mb-1">Email</label>
+                        <input type="text" class="form-control input-beige py-2">
+                    </div>
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn bg-dark-btn me-md-2 w-30 px-4 py-2" type="button">Enviar</button>
+</div>
+
+                </form>
+            </div>
+
+            <!-- Card de Perfil -->
+            <div class="col-md-8">
+                <div class="bg-light-gray p-4 rounded shadow-sm h-100 d-flex flex-column justify-content-between">
+                    <div class="row align-items-center g-4">
+                        <!-- Imagem de Perfil Circular -->
+                        <div class="col-sm-5 d-flex justify-content-center">
+                            <div class="circle-profile rounded-circle d-flex align-items-center justify-content-center text-white fs-3 shadow">
+                                X
+                            </div>
+                        </div>
+                        <!-- Dados do Perfil -->
+                        <div class="col-sm-7 text-center text-sm-start">
+                            <h3 class="mb-2 text-dark">Alaide Gomes</h3>
+                            <p class="mb-2 fs-5 text-dark">idade 48 anos</p>
+                            <p class="mb-0 fs-5 text-dark">Residente em camaçari</p>
+                        </div>
+                    </div>
+                    <!-- Ícones Sociais Inferiores -->
+                    <div class="d-flex justify-content-end gap-3 mt-4">
+                        <div class="circle-social rounded-circle d-flex align-items-center justify-content-center shadow-sm">X</div>
+                        <div class="circle-social rounded-circle d-flex align-items-center justify-content-center shadow-sm">X</div>
+                        <div class="circle-social rounded-circle d-flex align-items-center justify-content-center shadow-sm">X</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="cdn/script.js"></script> 
+</body>
+</html>

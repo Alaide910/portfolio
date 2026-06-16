@@ -1,0 +1,17 @@
+body {
+  background-color: #fff;
+  font-family: "Arial";
+  color: #180940;
+  padding: 20px;
+}
+h1 {
+  color: #180940;
+}
+ul {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+}
+
+.bg-marron {
+  background-color: #c2a172 !important;
+}
